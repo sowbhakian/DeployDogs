@@ -1,11 +1,8 @@
-/* Title */
+Title
 body{
     margin: 0% 0% 0% 0%;
 }
-.backimg{
-    z-index: 0;
-    
-}
+
 p{
     color: rgb(252, 195, 8);
 }
@@ -62,6 +59,8 @@ p{
 @media (max-width: 750px){
     .title-left-img{
         margin-left: 17%;
+        height: 200px;
+        width: 300px;
     }
 }
 @media (max-width: 645px){
@@ -72,6 +71,15 @@ p{
 @media (max-width: 550px){
     .title-left-img{
         margin-left: 5%;
+        height: 150px;
+        width: 250px;
+    }
+}
+@media (max-width: 550px){
+    .title-left-img{
+        margin-left: 5%;
+        height: 100px;
+        width: 200px;
     }
 }
 .title-img{
@@ -102,7 +110,7 @@ font-family: 'Kanit';
 font-size: 1.6rem;
 margin-bottom: 5%;
 }
-@media (max-width: 1250){
+@media (max-width: 1250px){
     .title-button{
         margin-left: 25%;
     }
@@ -130,6 +138,11 @@ margin-bottom: 5%;
     margin-right: 50px;
     color: rgb(192, 76, 76);    
   }
+  @media (max-width: 800px){
+    .up-arrow-right{
+        margin-top: 8%;
+    }
+  }
   .up-arrow-right:hover{
     color: rgb(255, 56, 56);
   }
@@ -148,8 +161,8 @@ margin-bottom: 5%;
 }
 .breed-bg-div{
     padding-top: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 4%;
+    padding-right: 1%;
     padding-bottom: 3%;
 }
 .card{
@@ -189,6 +202,16 @@ margin-bottom: 5%;
     color: rgb(255, 255, 255);
     font-family: 'Bree Serif';
 }
+@media (max-width: 530px){
+    .pricing-button{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 390px){
+    .pricing-button{
+        margin-left: 0px;
+    }
+}
 .pricing-button:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -216,6 +239,19 @@ a:hover, a:visited, a:link, a:active
     margin-bottom: 5%;
     margin-top: 5%;
 }
+@media (max-width:600px){
+    .pricing-img1 {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+@media (max-width:530px){
+    .pricing-img1 {
+        height: 180px; 
+        margin-bottom: 15%;
+        margin-top: 15%;
+    }
+}
 @media (max-width:1000px){
     #food-section .pricing-img1{
         padding: 0% 14%;
@@ -228,13 +264,14 @@ a:hover, a:visited, a:link, a:active
 }
 @media (max-width:485px){
     .title-left-img {
-        margin-left: -5%;
+        margin-left: 5%;
     }
 }
 
 @media (max-width: 770px){
     .food-whole-div{
         padding: 10% 20%;
+        padding-right: 10%;
         
     }
     .toy-whole-div{
